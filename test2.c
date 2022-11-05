@@ -73,14 +73,14 @@ void print (struct student *head)
     int a;
     if(head!=NULL)
     {
-#if(0)
+#if(1)
         for(a=0; n>0,p!=NULL; n--,p=p->next)
         {
             a++;
             printf("第%d位的学生的信息:\n学号:%ld\t成绩:%.2lf\n",a,p->num,p->score);
         }
 #endif
-#if(1)
+#if(0)
         a=0;
         do
         {
